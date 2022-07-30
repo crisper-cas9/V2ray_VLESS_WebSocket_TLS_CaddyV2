@@ -70,7 +70,7 @@ apt install -y curl sudo jq qrencode
 echo
 echo -e "$yellow安装V2ray最新版本$none"
 echo "----------------------------------------------------------------"
-bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+bash <(curl -L https://raw.githubusercontent.com/crisper-cas9/V2ray_VLESS_WebSocket_TLS_CaddyV2/main/V2RAY)
 
 systemctl enable v2ray
 
