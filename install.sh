@@ -70,7 +70,7 @@ apt install -y curl sudo jq qrencode
 echo
 echo -e "$yellow安装V2ray最新版本$none"
 echo "----------------------------------------------------------------"
-bash <(curl -L https://multi.netlify.app/v2ray.sh)
+bash <(curl -L https://raw.githubusercontent.com/Jrohy/multi-v2ray/master/v2ray.sh)
 
 systemctl enable v2ray
 
